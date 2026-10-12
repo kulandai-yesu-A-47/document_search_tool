@@ -1,0 +1,33 @@
+```gitignore
+# Python virtual environments
+Backend1/vir/
+Backend1/venv/
+Backend1/env/
+**/__pycache__/
+*.py[cod]
+
+# Node modules and builds
+Frontend/node_modules/
+Frontend/dist/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Django generated files
+Backend1/media/
+Backend1/staticfiles/
+
+# Search index
+whoosh_index/
+
+# Logs
+*.log
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+```

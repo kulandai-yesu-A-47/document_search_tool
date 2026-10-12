@@ -1,0 +1,1 @@
+web: gunicorn backend_project1.wsgi:application --chdir Backend1 --bind 0.0.0.0:$PORT
