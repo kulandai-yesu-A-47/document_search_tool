@@ -161,7 +161,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = config(
     'CORS_ALLOWED_ORIGINS',
-    default='http://localhost:5173',
+    default='https://document-search-tool.netlify.app',
     cast=lambda v: [origin.strip() for origin in v.split(',') if origin.strip()],
 )
 
